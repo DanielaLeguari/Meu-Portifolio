@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.img-perfil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.background{
+    background-color: #f6f6f6;
+}
+
+.link-contato:hover{
+    background-color: rgb(207, 225, 236);
+    border-radius: 10px;
+    padding: 0.4rem;
+    transition: 1s;
+}
