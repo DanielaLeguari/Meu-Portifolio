@@ -11,6 +11,9 @@
   <img  align="center" alt="Dani-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />                
 </div>
 
+
+## Páginas do Projeto
+
 - O projeto é composto pela Home sendo a tela principal;
 - A página de Cursos pode ser acessada pelo botão Saiba Mais na tela Home;
 - Página de contatos;
