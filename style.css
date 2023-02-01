@@ -3,60 +3,62 @@
     padding: 0;
 }
 
-.box-perfil{
+.box-perfil {
     border-radius: 10px;
     background-color: #e4ebef;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
-.img-perfil img{
+.box-perfil-index{
+    border-radius: 10px;
+    background-color: #e4ebef;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin-top: 3.3rem;
+}
+
+.img-perfil img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
-.background{
+.background {
     background-color: #f6f6f6;
 }
 
-.link-contato:hover{
+.link-contato:hover {
     background-color: rgb(207, 225, 236);
     border-radius: 10px;
     padding: 0.4rem;
     transition: 1s;
 }
 
-.card{
+.card {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform .2s;
 }
 
-
-.card:hover{
+.card:hover {
     transform: translate(0, -2rem);
 }
 
-.box-projetos{
-  margin-top: 5rem;
+.box-projetos {
+    margin-top: 1rem;
 }
 
-.box-cursos{
+.box-cursos {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(93, 90, 90, 0.1);
     padding: 1rem;
 }
 
 
-.box-obrigado{
+.box-obrigado {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem;
 }
-
-
-
-
-
