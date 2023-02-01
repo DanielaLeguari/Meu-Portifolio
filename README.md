@@ -13,7 +13,8 @@
 
 ## Páginas do Projeto
 
-- O projeto é composto pela Home sendo a tela principal;
-- A página de Cursos pode ser acessada pelo botão Saiba Mais na tela Home;
+- O projeto é composto pela tela Início;
+- A página Sobre;
+- A página Portfólio;
 - Página de contatos;
 - Página Obrigado.
