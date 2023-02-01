@@ -8,11 +8,12 @@
     background-color: #e4ebef;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
+    margin-top: 6rem;
 }
 
 .img-perfil img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -32,8 +33,13 @@
     transition: transform .2s;
 }
 
+
 .card:hover{
     transform: translate(0, -2rem);
+}
+
+.box-projetos{
+  margin-top: 5rem;
 }
 
 .box-cursos{

@@ -12,30 +12,27 @@
 </head>
 
 <body class="background">
-    <nav class="navbar navbar-light background-nav" style="background-color: #d8e5ee;">
+    <!--header-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll" style="background-color: #d8e5ee">
         <div class="container">
-            <a class="navbar-brand fs-4" style="color: #363636;" href="#">
-                <b>| Meu Portifólio</b>
-            </a>
-            <form class="d-flex">
-                <ul class="navbar-nav">
-                    <li class="nav-item font-nav fs-6">
-                        <a class="nav-link active link-contato " style="color: #363636;" aria-current="page"
-                            href="./contato/index.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                                class="bi bi-telephone-plus" viewBox="0 0 16 16">
-                                <path
-                                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                                <path fill-rule="evenodd"
-                                    d="M12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5z" />
-                            </svg><span class="fw-bold">Contato</span>
-                        </a>
-                    </li>
+            <a href="#" class="navbar-brand fw-bolder fst-italic">| Daniela</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active fw-bolder"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item fw-bolder"><a class="nav-link" href="./cursos/cursos.html">Sobre</a></li>
+                    <li class="nav-item fw-bolder"><a class="nav-link" href="./portifolio/index.html">Portfólio</a></li>
+                    <li class="nav-item fw-bolder"><a class="nav-link" href="./contato/index.html">Contato</a></li>
                 </ul>
-            </form>
+            </div>
         </div>
     </nav>
-    <div class="container mt-5 box-perfil">
+
+    <!--Apresentacao-->
+    <div class="container box-perfil" id="inicio">
         <div class=" container row ">
             <div class="col-3  img-perfil">
                 <img src="./images/perfil.jpg" alt="">
@@ -51,7 +48,7 @@
     <!-- sobre -->
     <div class="container mt-4">
         <div class="col-4  p-3">
-            <h1 class="fst-italic">Um pouco mais sobre mim</h1>
+            <h1 class="fst-italic" style="text-decoration: underline ;">Sobre mim</h1>
         </div>
         <div class="col-sm-12  p-3 ">
             <h5 class="fw-light fst-italic">Sou graduada em Letras pela FASUL- Faculdade Sul Brasil (2015), Pedagogia
@@ -65,174 +62,66 @@
             </div>
         </div>
     </div>
-    <div class="container mt-4 mb-4">
-        <h1 class="mb-4 fst-italic" style="text-decoration: underline ;">Meus Projetos</h1>
+
+    <!--servicos-->
+
+    <section>
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/blog.png" class="card-img-top" alt="...">
+            <h1 class="fst-italic" style="text-decoration: underline ;">Serviços</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
                         <div class="card-body">
-                            <h5 class="card-title fst-italic"> Blog "Os Winchesters"</h5>
-                            <p class="card-text fw-light">Projeto desenvolvido em React com Typescript.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://homework-2-typescript-react.vercel.app/" class="btn btn-dark  me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
+                            <i class="far servicesIcon fa-check-circle"></i>
+                            <h4 class="card-title mt-3 fst-italic">Desenvolvimento Web</h4>
+                            <p>Conhecimentos e experiência com React, styled components, Sass, Material UI, Context/API,
+                                Redux, JavaScript e TypeScript.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/alura-studies.png" class="card-img-top" alt="...">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
                         <div class="card-body">
-                            <h5 class="card-title fst-italic">Alura Studies</h5>
-                            <p class="card-text fw-light">Projeto desenvolvido com React e TypeScript.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://projeto-alura-studies.vercel.app/" class="btn btn-dark  me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
+                            <i class="far servicesIcon fa-check-circle"></i>
+                            <h4 class="card-title mt-3 fst-italic">Linguagem de marcação HTML e CSS</h4>
+                            <p>Conhecimentos e experência com HTML, construção de sites, formulários.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/amigo.png" class="card-img-top" alt="...">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
                         <div class="card-body">
-                            <h5 class="card-title fst-italic"> Sorteador Amigo Secreto</h5>
-                            <p class="card-text fw-light"> Curso de React: testando os seus componentes da Alura.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://sorteador-amigo-secreto-ten.vercel.app/" class="btn btn-dark me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
+                            <i class="far servicesIcon fa-check-circle"></i>
+                            <h4 class="card-title mt-3 fst-italic">Oracle/Apex</h4>
+                            <p>Conhecimento e experiência em Oracle/Apex na construção de sites e aplicações.</p>
                         </div>
                     </div>
                 </div>
-                <!--linha 2-->
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/scss.png" class="card-img-top" alt="...">
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="card servicesText">
                         <div class="card-body">
-                            <h5 class="card-title fst-italic"> Projeto em SCSS</h5>
-                            <p class="card-text fw-light"> Projeto realizado na capacitação do Vem ser DBC 10ªEd.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://sorteador-amigo-secreto-ten.vercel.app/" class="btn btn-dark me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
+                            <i class="far servicesIcon fa-check-circle"></i>
+                            <h4 class="card-title mt-3">Banco de Dados</h4>
+                            <p>Conhecimentos em Oracle, SQL Server, MySQL.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/trello.png" class="card-img-top" alt="...">
+
+                <div class="col-lg-6 mt-4">
+                    <div class="card servicesText">
                         <div class="card-body">
-                            <h5 class="card-title fst-italic"> Projeto site Trello</h5>
-                            <p class="card-text fw-light"> Projeto realizado na capacitação do Vem ser DBC 10ªEd.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://exercicio7-html-css.vercel.app/" class="btn btn-dark me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/context-api.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fst-italic"> Projeto React e Context/API</h5>
-                            <p class="card-text fw-light"> Projeto realizado na capacitação do Vem ser DBC 10ªEd.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://github.com/DanielaLeguari/projeto-reproducao-site-trello" class="btn btn-dark me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- -->
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/reposnsividade.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fst-italic">Resposividade</h5>
-                            <p class="card-text fw-light">Projeto realizado na capacitação do Vem ser DBC 10ªEd.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://github.com/DanielaLeguari/responsividade"
-                                    class="btn btn-dark me-md-2 " type="button">Acessar
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/styled.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fst-italic">React e Styled Components</h5>
-                            <p class="card-text fw-light">Projeto realizado na capacitação do Vem ser DBC 10ªEd.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://github.com/DanielaLeguari/react-com-styled-components" class="btn btn-dark  me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/context-api2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fst-italic">Projeto React e Context/API</h5>
-                            <p class="card-text fw-light">Projeto realizado na capacitação do Vem ser DBC 10ªEd.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://github.com/DanielaLeguari/projeto2-react-context" class="btn btn-dark  me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/single.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fst-italic">Single Page</h5>
-                            <p class="card-text fw-light">Curso Front-end do zero ao primeiro site +PraTi e Happy Code</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://github.com/DanielaLeguari/atividade-single-page" class="btn btn-dark  me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/animacoes.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fst-italic">Animações</h5>
-                            <p class="card-text fw-light">Curso Front-end do zero ao primeiro site +PraTi e Happy Code</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://github.com/DanielaLeguari/animacoes-html-css-javascript" class="btn btn-dark  me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/bootstrap.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fst-italic">Cadastro</h5>
-                            <p class="card-text fw-light">Implementada uma tela de cadastro com JS e Bootstrap</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <a href="https://github.com/DanielaLeguari/cadastro_bootstrap/tree/main" class="btn btn-dark  me-md-2 "
-                                    type="button">Acessar</a>
-                            </div>
+                            <i class="far servicesIcon fa-check-circle"></i>
+                            <h4 class="card-title mt-3">Quality Assurence</h4>
+                            <p>Testes manuais, teste com Jest e React Testing Library.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
+    </section>
+
     <footer class="py-5">
         <div class="container d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
             <p>&copy; 2023 by Daniela H. Leguari</p>
