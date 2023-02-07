@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.fonte-principal{
+    font-family: 'Pacifico', cursive;
+}
+
 .box-perfil {
     border-radius: 10px;
     background-color: #e4ebef;
