@@ -6,10 +6,16 @@
         "link":"https://homework-2-typescript-react.vercel.app/"
     },
     {
-        "imagem":"/src/images/alura-studies.png",
-        "titulo":"Alura Studies",
-        "legenda":"Projeto desenvolvido com React e TypeScript.",
-        "link":"https://projeto-alura-studies.vercel.app/"
+        "imagem":"/src/images/receitas.png",
+        "titulo":"Projetos Receitas Sem glúten e sem Lactose",
+        "legenda":"Landing page de receitas",
+        "link":"https://github.com/DanielaLeguari/landing-page-receitas"
+    },
+    {
+        "imagem":"/src/images/trello.png",
+        "titulo":"Projeto site Trello",
+        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
+        "link":"https://github.com/DanielaLeguari/projeto-reproducao-site-trello"
     },
     {
         "imagem":"/src/images/amigo.png",
@@ -22,18 +28,6 @@
         "titulo":"Projeto em SCSS",
         "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
         "link":"https://exercicio7-html-css.vercel.app/"
-    },
-    {
-        "imagem":"/src/images/trello.png",
-        "titulo":"Projeto site Trello",
-        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
-        "link":"https://github.com/DanielaLeguari/projeto-reproducao-site-trello"
-    },
-    {
-        "imagem":"",
-        "titulo":"Receitas",
-        "legenda":"Receitas",
-        "link":"https://github.com/DanielaLeguari/landing-page-receitas"
     },
     {
         "imagem":"/src/images/context-api.png",
@@ -58,5 +52,11 @@
         "titulo":"Projeto React e Context/API",
         "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
         "link":"https://github.com/DanielaLeguari/projeto2-react-context"
+    },
+    {
+        "imagem":"/src/images/alura-studies.png",
+        "titulo":"Alura Studies",
+        "legenda":"Projeto desenvolvido com React e TypeScript.",
+        "link":"https://projeto-alura-studies.vercel.app/"
     }
 ]
