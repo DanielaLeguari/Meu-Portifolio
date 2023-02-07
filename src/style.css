@@ -36,13 +36,22 @@
     transition: 1s;
 }
 
-.card {
+.card-estilo {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform .2s;
 }
 
+.card-largura{
+    max-width: 18rem;
+}
+
 .card:hover {
     transform: translate(0, -2rem);
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
 }
 
 .box-projetos {

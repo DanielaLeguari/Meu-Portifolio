@@ -1,0 +1,62 @@
+[
+    {
+        "imagem":"/src/images/blog.png",
+        "titulo":"Blog 'Os Winchesters'",
+        "legenda":"Projeto desenvolvido em React com Typescript.",
+        "link":"https://homework-2-typescript-react.vercel.app/"
+    },
+    {
+        "imagem":"/src/images/alura-studies.png",
+        "titulo":"Alura Studies",
+        "legenda":"Projeto desenvolvido com React e TypeScript.",
+        "link":"https://projeto-alura-studies.vercel.app/"
+    },
+    {
+        "imagem":"/src/images/amigo.png",
+        "titulo":"Sorteador Amigo Secreto",
+        "legenda":"Curso de React: testando os seus componentes da Alura.",
+        "link":"https://sorteador-amigo-secreto-ten.vercel.app/"
+    },
+    {
+        "imagem":"/src/images/scss.png",
+        "titulo":"Projeto em SCSS",
+        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
+        "link":"https://exercicio7-html-css.vercel.app/"
+    },
+    {
+        "imagem":"/src/images/trello.png",
+        "titulo":"Projeto site Trello",
+        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
+        "link":"https://github.com/DanielaLeguari/projeto-reproducao-site-trello"
+    },
+    {
+        "imagem":"",
+        "titulo":"Receitas",
+        "legenda":"Receitas",
+        "link":"https://github.com/DanielaLeguari/landing-page-receitas"
+    },
+    {
+        "imagem":"/src/images/context-api.png",
+        "titulo":"Projeto React e Context/API",
+        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
+        "link":"https://github.com/DanielaLeguari/projeto-react-context/"
+    },
+    {
+        "imagem":"/src/images/reposnsividade.png",
+        "titulo":"Responsividade",
+        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
+        "link":"https://github.com/DanielaLeguari/responsividade"
+    },
+    {
+        "imagem":"/src/images/styled.png",
+        "titulo":"React e Styled Components",
+        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
+        "link":"https://github.com/DanielaLeguari/react-com-styled-components"
+    },
+    {
+        "imagem":"/src/images/context-api2.png",
+        "titulo":"Projeto React e Context/API",
+        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd.",
+        "link":"https://github.com/DanielaLeguari/projeto2-react-context"
+    }
+]
