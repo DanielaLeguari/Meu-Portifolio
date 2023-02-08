@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../../style.css">
     <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon">
     <title>Sobre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -15,9 +18,9 @@
 <body class="background">
     <!--header-->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbarScroll" style="background-color: #d8e5ee">
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll bg-navbar">
             <div class="container">
-                <a href="../../../index.html" class="navbar-brand fw-bolder fonte-principal">Daniela Leguari</a>
+                <a href="../../../index.html" class="navbar-brand cor-fonte fonte-principal">Daniela Leguari</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
@@ -25,12 +28,12 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active fw-bolder "><a class="nav-link" href="../../../index.html">Início</a>
+                        <li class="nav-item active fw-bolder "><a class="nav-link cor-fonte" href="../../../index.html">Início</a>
                         </li>
-                        <li class="nav-item fw-bolder"><a class="nav-link" href="../sobre/index.html">Sobre</a></li>
-                        <li class="nav-item fw-bolder"><a class="nav-link"
+                        <li class="nav-item fw-bolder"><a class="nav-link cor-fonte" href="../sobre/index.html">Sobre</a></li>
+                        <li class="nav-item fw-bolder"><a class="nav-link cor-fonte"
                                 href="../portifolio/index.html">Portifólio</a></li>
-                        <li class="nav-item fw-bolder"><a class="nav-link" href="../contato/index.html">Contato</a></li>
+                        <li class="nav-item fw-bolder"><a class="nav-link cor-fonte" href="../contato/index.html">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -182,8 +185,13 @@
         </section>
 
         <footer class="py-5">
-            <div class="container d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>&copy; 2023 by Daniela H. Leguari</p>
+            <div
+            class="container d-flex flex-column flex-sm-row justify-content-around align-items-center py-4 my-4 border-top">
+            <p class="m-0 text-secondary">&copy; 2023 by Daniela H. Leguari</p>
+            <div class="icones-footer">
+                <a href="https://www.linkedin.com/in/daniela-leguari/"><i
+                        class="fa-brands fa-linkedin icone-linkedin"></i></a>
+                <a href="https://github.com/DanielaLeguari"><i class="fa-brands fa-square-github icone-github"></i></a>
             </div>
         </footer>
     </main>
