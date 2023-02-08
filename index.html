@@ -43,9 +43,9 @@
         </nav>
     </header>
     <main class="container w-100 m-auto mt-5">
-        <section id="breadcrumb">
+        <section id="breadcrumb" class="breadcrumb-index">
             <ol class="breadcrumb" style="margin-top: 1rem;">
-                <li class="breadcrumb-item fs-6 fw-semibold"><a style="color:black" href="../index.html">Início</a></li>
+                <li class="breadcrumb-item fs-6 fw-semibold "><a class="breadcrumb-index-texto" href="../index.html">Início</a></li>
             </ol>
         </section>
         <!--Apresentacao-->
@@ -64,12 +64,11 @@
             </div>
         </section>
         <!-- sobre -->
-
         <section id="titulo" class="container">
             <h1 class="text-center pt-5 pb-3 fonte-principal cor-habilidades">
                 Sobre mim
             </h1>
-            <p class="cor-texto-paragrafo pb-5 fs-5">
+            <p class="cor-texto-paragrafo fs-5">
                 Sou graduada em Letras pela FASUL- Faculdade Sul Brasil (2015),
                 Pedagogia
                 pela UNINTER- Centro
@@ -78,87 +77,190 @@
                 pela FAG- Faculdade Assis Gurgacz (2018) e Pedagogia Empresarial pela UNINTER (2019).
             </p>
         </section>
-        <section class="container">
-            <h1 class="text-center pb-3 fonte-principal cor-habilidades">
-                Hard Skills
-            </h1>
-        </section>
-        <section class="container text-center mt-3">
-            <div class="row">
-                <article class="col">
-                    <h5 class=""><i class="fa-solid fa-desktop icons-skills"></i><i class="fa-solid fa-mobile-screen icons-skills"></i></h5>
-                    <p>Conhecimentos intermediário com React, styled components, Sass, Material UI,
-                        Context/API,
-                        Redux, JavaScript e TypeScript.</p>
-                </article>
-                <article class="col">
-                    <h5 class=""><i class="fa-brands fa-html5 icons-skills icone-html"></i><i class="fa-brands fa-css3-alt icons-skills icone-css"></i></h5>
-                    <p>Conhecimentos e experência com HTML/CSS, Bootstrap, construção de sites, formulários.</p>
-                </article>
+
+
+        <section id="hard-skills">
+            <div class="container mt-5">
+                <h1 class="text-center pb-3 fonte-principal cor-habilidades">
+                    Hard Skills
+                </h1>
+                <div class="row">
+                    <article class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"><i
+                                        class="fa-brands fa-square-js icons-skills icone-javascript"></i>JavaScript</h5>
+                                <p class="text-secondary paragrafo-skills">Conhecimento intermediário em JavaScript e
+                                    TypeScript</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+
+                                <h5 class="titulos-skills">Git</h5>
+                                <p class=" text-secondary paragrafo-skills"><i
+                                        class="fa-brands fa-git icons-skills icone-git"></i>Conhecimento e experiência
+                                    em Git e Github</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"> <i
+                                        class="fa-solid fa-database icons-skills icone-banco"></i> SGBD</h5>
+                                <p class="text-secondary paragrafo-skills m-0">Conhecimentos com SGBD Oracle, SGBD
+                                    Microsoft
+                                    SQL Server,
+                                    SGBD MySQL.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="row">
+                    <article class="col-lg-6 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills">
+                                    <i class="fa-brands fa-html5 icons-skills icone-html"></i><i
+                                        class="fa-brands fa-css3-alt icons-skills icone-css"></i>
+                                    HTML/CSS
+                                </h5>
+                                <p class="text-secondary paragrafo-skills">Conhecimentos e experência com HTML/CSS,
+                                    Bootstrap,
+                                    construção de sites, formulários.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-6 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"><i
+                                        class="fa-solid fa-database icons-skills icone-oracle"></i>Oracle/Apex</h5>
+                                <p class="text-secondary paragrafo-skills">Conhecimento e experiência em Oracle/Apex na
+                                    construção
+                                    de sites e aplicações.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"> <i class="fa-solid fa-flask-vial icons-skills"></i>Quality
+                                    Assurance</h5>
+                                <p class="text-secondary paragrafo-skills">Testes manuais, teste com Jest e React
+                                    Testing Library
+                                    para Front-end, Cypress.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="col-lg-8 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills">
+                                    <i class="fa-solid fa-desktop icons-skills icone-telas"></i><i
+                                        class="fa-solid fa-mobile-screen icons-skills"></i>
+                                    Desenvolvimento Web
+                                </h5>
+                                <p class="text-secondary paragrafo-skills">Conhecimento intermediário com React, styled
+                                    components,
+                                    Sass,
+                                    Context/API,
+                                    Redux, JavaScript e TypeScript.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="row p-4">
-                <article class="col">
-                    <h5 class=""><i class="fa-solid fa-database icons-skills icone-oracle"></i></h5>
-                    <p>Conhecimento e experiência em Oracle/Apex na construção de sites e aplicações.</p>
-                </article>
-                <article class="col">
-                    <h5 class=""><i class="fa-solid fa-database icons-skills icone-banco"></i></h5>
-                    <p>Conhecimentos com SGBD Oracle, SGBD Microsoft SQL Server, SGBD MySQL.</p>
-                </article>
-                <article class="col">
-                    <h5 class=""><i class="fa-solid fa-flask-vial icons-skills"></i></h5>
-                    <p>Testes manuais, teste com Jest e React Testing Library para Front-end, Cypress.</p>
-                </article>
-            </div>
-            <div class="row">
-                <article class="col">
-                    <h5 class=""><i class="fa-brands fa-square-js icons-skills icone-javascript"></i></h5>
-                    <p>Conhecimentos intermediário com React, styled components, Sass, Material UI,
-                        Context/API,
-                        Redux</p>
-                </article>
-                <article class="col">
-                    <h5 class=""><i class="fa-brands fa-git icons-skills icone-git"></i></h5>
-                    <p>Conhecimentos e experência com HTML/CSS, Bootstrap, construção de sites, formulários.</p>
-                </article>
         </section>
-        <section class="container">
-            <h1 class="text-center pb-3 fonte-principal cor-habilidades">
-                Soft Skills
-            </h1>
+        <section id="soft-skills">
+            <div class="container mt-5">
+                <h1 class="text-center pb-2 fonte-principal cor-habilidades">
+                    Soft Skills
+                </h1>
+                <div class="row">
+                    <article class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"><i
+                                        class="fa-solid fa-brain icons-skills icone-inteligencia"></i>Inteligência
+                                    emocional</h5>
+                                <p class="text-secondary paragrafo-skills">
+                                    <i class="fa-brands fa-linkedin icone-linkedin"></i>
+                                    Como Desenvolver sua Inteligência Emocional
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"><i
+                                        class="fa-solid fa-people-group icons-skills icone-equipe"></i>Trabalho em
+                                    Equipe</h5>
+                                <p class="text-secondary paragrafo-skills">
+                                    <i class="fa-brands fa-linkedin icone-linkedin"></i>
+                                    Como Colaborar de Forma Eficaz com sua Equipe
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"> <i
+                                        class="fa-solid fa-person icons-skills icone-pessoa"></i>Liderança e
+                                    Trabalho em
+                                    Equipe</h5>
+                                <p class="text-secondary paragrafo-skills">
+                                    <i class="fa-brands fa-linkedin icone-linkedin"></i>
+                                    Como Liderar e Trabalhar em Equipe
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="row">
+                    <article class="col-lg-6 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"><i
+                                        class="fa-solid fa-people-roof icons-skills icone-gerenciamento">
+                                    </i>Gerenciamento de relacionamento com chefes e colegas</h5>
+                                <p class="text-secondary paragrafo-skills m-0">
+                                    <i class="fa-brands fa-linkedin icone-linkedin"></i>
+                                    Como gerenciar Relacionamentos com Chefes,
+                                    Colegas e Subordinados
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-6 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <h5 class="titulos-skills"><i
+                                        class="fa-solid fa-computer icons-skills icone-telas"></i>Desenvolvimento
+                                    ágil
+                                    de Software</h5>
+                                <p class="text-secondary paragrafo-skills m-0">
+                                    <i class="fa-brands fa-linkedin icone-linkedin"></i>
+                                    Desenvolvimento Ágil de Software
+                                </p>
+                                <p class="text-secondary paragrafo-skills">
+                                    <i class="fa-brands fa-linkedin icone-linkedin"></i>
+                                    Fundamentos de Gestão Ágil
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
         </section>
-        <section class="container text-center mt-3">
-            <div class="row">
-                <article class="col">
-                    <h4 class=""><i class="fa-solid fa-brain icons-skills"></i></h4>
-                   <h3>Inteligência emocional</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque earum labore animi doloremque,
-                        assumenda pariatur hic reprehe</p>
-                </article>
-                <article class="col">
-                    <h4 class=""><i class="fa-solid fa-people-group icons-skills"></i></h4>
-                    <h3>Trabalho em Equipe</h3>
-                    <p>Lorem ipsum dolor, </p>
-                </article>
-            </div>
-            <div class="row p-4">
-                <article class="col">
-                    <h4><i class="fa-solid fa-people-roof icons-skills"></i></h4>
-                    <h3 class="">Gerenciamento de relacionamento com chefes e colegas</h3>
-                    <p>loren </p>
-                </article>
-                <article class="col">
-                    <h4><i class="fa-solid fa-person icons-skills"></i></h4>
-                    <h3 class="">Liderança e Trabalho em Equipe</h3>
-                    <p>Lorem ipsum dolor,</p>
-                </article>
-                <article class="col">
-                    <h4><i class="fa-solid fa-computer icons-skills"></i></h4>
-                    <h3 class="">Desenvolvimento ágil de Software</h3>
-                    <p>Lorem ipsum dolor,</p>
-                </article>
-            </div>
-        </section>
+
         <footer class="py-5">
             <div class="container d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                 <p>&copy; 2023 by Daniela H. Leguari</p>

@@ -15,12 +15,27 @@
     color: #e4ebef !important;
 }
 
+/*breadcrumb*/
+.breadcrumb-index {
+    margin-top: 4rem;
+}
+
+.breadcrumb-index-texto {
+    font-size: 1.2rem;
+    color: #850d29;
+}
+
+.breadcrumb-index-texto:hover {
+    color: #17293a;
+}
+
 .fonte-principal {
     font-family: 'Pacifico', cursive;
 }
 
 .cor-habilidades {
     color: #850d29;
+    ;
 
 }
 
@@ -38,11 +53,17 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     border: 0.01rem solid #850d29;
     padding: 1rem;
-    margin-top: 3.3rem;
+    margin-top: 2rem;
+}
+
+.img-perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .icons-skills {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-right: 1rem;
 }
 
@@ -54,12 +75,12 @@
     color: blue
 }
 
-.icone-oracle{
-    color:rgba(204, 30, 30, 0.889);
+.icone-oracle {
+    color: rgba(204, 30, 30, 0.889);
 }
 
-.icone-banco{
-    color:grey;
+.icone-banco {
+    color: grey;
 }
 
 .icone-javascript {
@@ -67,24 +88,53 @@
 }
 
 .icone-git {
-    color: rgb(255, 102, 0);
+    color: rgb(255, 77, 0);
 }
 
-.box-perfil {
+.icone-inteligencia {
+    color: rosybrown;
+}
+
+.icone-equipe {
+    color: grey;
+}
+
+.icone-gerenciamento {
+    color: green;
+}
+
+.icone-pessoa {
+    color: #850d29;
+}
+
+.icone-telas {
+    color: blue;
+}
+
+.icone-linkedin {
+    color: #0e76a8;
+}
+
+.titulos-skills {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #17293a;
+}
+
+.paragrafo-skills {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+.box-perfil-sobre {
     border-radius: 10px;
-    background-color: #f6f6f6;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border: 0.01rem solid #850d29;
     padding: 0.5rem;
     margin-top: 1rem;
 }
 
-
-
-.img-perfil img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
 
 .background {
     background-color: #f6f6f6;
@@ -108,6 +158,7 @@
 
 .card:hover {
     transform: translate(0, -2rem);
+    transition: transform .2s;
 }
 
 .card-posicao-imagem {
