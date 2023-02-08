@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+.background {
+    background-color: #f6f6f6;
+}
+
 /*Navbar*/
 
 .bg-navbar {
@@ -171,19 +175,12 @@
     border-radius: 5px;
 }
 
-
-
-/**/
-.background {
-    background-color: #f6f6f6;
+.imagem-carrossel {
+    height: 600px;
 }
 
-.link-contato:hover {
-    background-color: rgb(207, 225, 236);
-    border-radius: 10px;
-    padding: 0.4rem;
-    transition: 1s;
-}
+
+/*cards*/
 
 .card-estilo {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
@@ -204,15 +201,87 @@
     height: 200px;
 }
 
+/*portifolio*/
 .box-projetos {
     margin-top: 1rem;
 }
 
+.botao-cor-projetos{
+    font-family:'Montserrat', sans-serif ;
+    background-color:#850d29;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
 
+.botao-cor-projetos:hover{
+    background-color:#bb2649;
+    color: white;
+}
+
+/*Contato*/
+.icone-linkedin-contato{
+    font-size: 4rem;
+    color: #0e76a8;
+}
+
+.icone-gitbub-contato{
+    font-size: 4rem;
+    color: black;
+}
+
+.botao-enviar{
+    font-family:'Montserrat', sans-serif ;
+    background-color:#850d29;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    min-width: 60px;
+    padding: 0.5rem;
+}
+
+.botao-enviar:hover{
+    background-color:#bb2649;
+    color: white;
+}
+
+.form-label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/*Obrigado*/
+.icone-check{
+    color: green;
+}
+
+.icone-obrigado{
+    font-size: 5rem;
+    color: #850d29;
+}
 
 .box-obrigado {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    font-family:'Montserrat', sans-serif ;
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem;
+}
+
+.botao-voltar{
+    font-family:'Montserrat', sans-serif ;
+    background-color:#850d29;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    min-width: 60px;
+    padding: 0.5rem;
+}
+
+.botao-voltar:hover{
+    background-color:#bb2649;
+    color: white;
 }
