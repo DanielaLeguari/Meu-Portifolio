@@ -1,59 +1,57 @@
 [
     {
-        "id":"1",
+        "id": "1",
         "titulo": "Oracle APEX Fundamentals Course",
-        "instituicao":"Udemy | janeiro/2023"
+        "instituicao": "Udemy | janeiro/2023"
     },
     {
-        "id":"2",
+        "id": "2",
         "titulo": "Desenvolvimento Front End: do zero ao primeiro site",
-        "instituicao":"+PraTi & Happy Code | janeiro/2023"
+        "instituicao": "+PraTi & Happy Code | janeiro/2023"
     },
     {
-        "id":"3",
+        "id": "3",
         "titulo": "Capacitação: Vem Ser DBC 10ª edição",
-        "instituicao":"DBC-Company | dezembro/2022"
+        "instituicao": "DBC-Company | dezembro/2022"
     },
     {
-        "id":"4",
+        "id": "4",
         "titulo": "Formação Consultas com Oracle Database",
-        "instituicao":"Alura | dezembro/2022"
+        "instituicao": "Alura | dezembro/2022"
     },
     {
-        "id":"5",
+        "id": "5",
         "titulo": "React: testando os seus componentes",
-        "instituicao":"Alura | novembro/2022"
+        "instituicao": "Alura | novembro/2022"
     },
     {
-        "id":"6",
+        "id": "6",
         "titulo": "React: gerenciamento de estados globais com Context/API",
-        "instituicao":"Alura | novembro/2022"
+        "instituicao": "Alura | novembro/2022"
     },
     {
-        "id":"7",
+        "id": "7",
         "titulo": "Docker: criando e gerenciando containers",
-        "instituicao":"Alura | outubro/2022"
+        "instituicao": "Alura | outubro/2022"
     },
     {
-        "id":"8",
+        "id": "8",
         "titulo": "Curso Lógica de Programação",
-        "instituicao":"+PraTi & Alfamídia | julho/2022"
+        "instituicao": "+PraTi & Alfamídia | julho/2022"
     },
     {
-        "id":"9",
+        "id": "9",
         "titulo": "SQL Server: SQL com Microsoft SQL Server 2019",
-        "instituicao":"Alura | junho/2022"
+        "instituicao": "Alura | junho/2022"
     },
     {
-        "id":"10",
+        "id": "10",
         "titulo": "Formação Quality Assurance: plano de testes e gestão de bugs",
-        "instituicao":"Alura | maio/2022"
+        "instituicao": "Alura | maio/2022"
     },
     {
-        "id":"11",
+        "id": "11",
         "titulo": "Formação JavaScript para back-end",
-        "instituicao":"Alura | abril/2022"
+        "instituicao": "Alura | abril/2022"
     }
-
-
 ]

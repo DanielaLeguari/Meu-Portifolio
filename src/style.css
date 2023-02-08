@@ -151,6 +151,15 @@
 .titulos {
     color: #850d29;
 }
+.fonte-cursos{
+    font-family: 'Montserrat', sans-serif; 
+    color: #17293a;
+}
+
+.titulo-card-cursos{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 
 .titulos-experiencia {
     font-family: 'Montserrat', sans-serif;
@@ -169,7 +178,7 @@
     color: #17293a;
 }
 
-.borda-card-cursos{
+.borda-card-cursos {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     border: 0.01rem solid #850d29;
     border-radius: 5px;
@@ -206,9 +215,9 @@
     margin-top: 1rem;
 }
 
-.botao-cor-projetos{
-    font-family:'Montserrat', sans-serif ;
-    background-color:#850d29;
+.botao-cor-projetos {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #850d29;
     color: white;
     border: none;
     text-decoration: none;
@@ -216,25 +225,25 @@
     padding: 0.5rem;
 }
 
-.botao-cor-projetos:hover{
-    background-color:#bb2649;
+.botao-cor-projetos:hover {
+    background-color: #bb2649;
     color: white;
 }
 
 /*Contato*/
-.icone-linkedin-contato{
+.icone-linkedin-contato {
     font-size: 4rem;
     color: #0e76a8;
 }
 
-.icone-gitbub-contato{
+.icone-gitbub-contato {
     font-size: 4rem;
     color: black;
 }
 
-.botao-enviar{
-    font-family:'Montserrat', sans-serif ;
-    background-color:#850d29;
+.botao-enviar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #850d29;
     color: white;
     border: none;
     text-decoration: none;
@@ -243,36 +252,36 @@
     padding: 0.5rem;
 }
 
-.botao-enviar:hover{
-    background-color:#bb2649;
+.botao-enviar:hover {
+    background-color: #bb2649;
     color: white;
 }
 
-.form-label{
+.form-label {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
 }
 
 /*Obrigado*/
-.icone-check{
+.icone-check {
     color: green;
 }
 
-.icone-obrigado{
+.icone-obrigado {
     font-size: 5rem;
     color: #850d29;
 }
 
 .box-obrigado {
-    font-family:'Montserrat', sans-serif ;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem;
 }
 
-.botao-voltar{
-    font-family:'Montserrat', sans-serif ;
-    background-color:#850d29;
+.botao-voltar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #850d29;
     color: white;
     border: none;
     text-decoration: none;
@@ -281,7 +290,7 @@
     padding: 0.5rem;
 }
 
-.botao-voltar:hover{
-    background-color:#bb2649;
+.botao-voltar:hover {
+    background-color: #bb2649;
     color: white;
 }
