@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon">
     <title>Sobre</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -28,36 +28,40 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active fw-bolder "><a class="nav-link cor-fonte" href="../../../index.html">Início</a>
+                        <li class="nav-item active fw-bolder "><a class="nav-link cor-fonte"
+                                href="../../../index.html">Início</a>
                         </li>
-                        <li class="nav-item fw-bolder"><a class="nav-link cor-fonte" href="../sobre/index.html">Sobre</a></li>
+                        <li class="nav-item fw-bolder"><a class="nav-link cor-fonte"
+                                href="../sobre/index.html">Sobre</a></li>
                         <li class="nav-item fw-bolder"><a class="nav-link cor-fonte"
                                 href="../portifolio/index.html">Portifólio</a></li>
-                        <li class="nav-item fw-bolder"><a class="nav-link cor-fonte" href="../contato/index.html">Contato</a></li>
+                        <li class="nav-item fw-bolder"><a class="nav-link cor-fonte"
+                                href="../contato/index.html">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="container">
-        <section id="breadcrumb">
+    <main class="container w-100 m-auto mt-5">
+        <section id="breadcrumb" class="breadcrumb-index">
             <ol class="breadcrumb" style="margin-top: 4rem;">
-                <li class="breadcrumb-item fs-6 fw-semibold"><a style="color: black;"
+                <li class="breadcrumb-item fs-6 fw-semibold"><a class="fs-5 breadcrumb-index-texto"
                         href="../../../index.html">Início</a></li>
-                <li class="breadcrumb-item active fs-6" aria-current="page">Sobre</li>
+                <li class="breadcrumb-item active fs-5" aria-current="page">Sobre</li>
             </ol>
         </section>
         <section id="perfil" class="box-perfil-sobre">
             <div class="container row">
-                <div class="col-3 img-perfil">
+                <div class="col-sm-4  img-perfil">
                     <img src="../../images/perfil.jpg" alt="">
                 </div>
-                <div class="col-sm-9 texto-apresentacao">
-                    <h1 class="fonte-principal">Meus Cursos e Stacks</h1>
-                    <h5 class="fw-light fst-italic">Estou sempre em busca de me aperfeiçoar e aprender <span
+                <div class="col-sm-8 texto-apresentacao">
+                    <h1 class="fonte-principal cor-habilidades">Meus Cursos e Stacks</h1>
+                    <h5 class="cor-texto-paragrafo">Estou sempre em busca de me aperfeiçoar e aprender <span
                             class="fw-bold">novas tecnologias</span>. Busco oportunidades nas áreas de <span
-                            class="fw-bold">Desenvolvimento</span> ou <span class="fw-bold">Qualidade</span> que
+                            class="fw-bold">Desenvolvimento de Software</span> ou <span class="fw-bold">Qualidade</span>
+                        que
                         proporcione
                         o crescimento de minha carreira e que possa aplicar diariamente minhas habilidades com o
                         objetivo de
@@ -68,81 +72,36 @@
         <!-- cursos e experiencias -->
         <section id="experiencias" class="container mt-4">
             <div class="col-4  p-3">
-                <h1 class="fonte-principal">Experiências</h1>
+                <h1 class="fonte-principal titulos">Experiências</h1>
             </div>
             <div class="col-sm-12  p-3 ">
-                <h3 class="fst-italic">Estagiária em desenvolvimento Front-end </h3>
-                <h5>Atividades</h5>
-                <h6 class="fw-light">HTML/CSS e JavaScript, TypeScript, React e Context/API, React e Redux.</h6>
+                <h3 class="titulos-experiencia"><i class="fa-solid fa-desktop"></i> Estagiária em desenvolvimento
+                    Front-end </h3>
+                <h5 class="subtitulo-experiencia">Principais Atividades</h5>
+                <p class="text-secondary m-0 paragrafo-experiencia ">HTML/CSS e JavaScript, TypeScript, React e
+                    Context/API, React e Redux.</p>
             </div>
             <div class="col-sm-12  p-3 ">
-                <h3 class="fst-italic">Analista de Testes Júnior</h3>
-                <h5>Atividades</h5>
-                <h6 class="fw-light">Execução de testes manuais, redação de manuais e gravação de vídeos do sistema.
-                </h6>
+                <h3 class="titulos-experiencia"><i class="fa-solid fa-desktop"></i> Analista de Testes Júnior</h3>
+                <h5 class="subtitulo-experiencia">Principais Atividades</h5>
+                <p class="text-secondary m-0 paragrafo-experiencia ">Execução de testes manuais, redação de manuais e
+                    gravação de vídeos do sistema.
+                </p>
             </div>
         </section>
-        <section id="cursos" class="container box-cursos">
-            <div class="col-4  p-3">
-                <h1 class="fonte-principal">Cursos</h1>
+
+        <section class="container-fluid mt-5">
+            <div>
+                <h1 class="fonte-principal titulos pb-2">Cursos</h1>
             </div>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Oracle APEX Fundamentals Course</h5>
-                        <p class="fw-light">Udemy | janeiro/2023</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Desenvolvimento Front End: do zero ao primeiro site</h5>
-                        <p class="fw-light">+PraTi & Happy Code | janeiro/2023</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Capacitação: Vem Ser DBC 10ª edição</h5>
-                        <p class="fw-light">DBC-Company | dezembro/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Formação Consultas com Oracle
-                            Database</h5>
-                        <p class="fw-light">Alura | dezembro/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">React: testando os seus componentes</h5>
-                        <p class="fw-light"> Alura | novembro/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">React: gerenciamento de estados globais com Context/API</h5>
-                        <p class="fw-light"> Alura | novembro/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Docker: criando e gerenciando containers</h5>
-                        <p class="fw-light">Alura | outubro/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Curso Lógica de Programação</h5>
-                        <p class="fw-light">+PraTi & Alfamídia | julho/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">SQL Server: SQL com Microsoft SQL Server 2019</h5>
-                        <p class="fw-light">Alura | junho/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Jenkins: integração contínua</h5>
-                        <p class="fw-light">Alura | junho/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Formação Quality Assurance: plano de testes e gestão de bugs</h5>
-                        <p class="fw-light">Alura | maio/2022</p>
-                    </div>
-                    <div class="col mt-3">
-                        <h5 class="fst-italic">Formação JavaScript para back-end</h5>
-                        <p class="fw-light">Alura | abril/2022</p>
-                    </div>
-                </div>
+            <div class="row justify-content-center" id="cursos">
+                <!-- cards -->
             </div>
         </section>
-        <section id="certificados" class="container">
-            <div class="col-4  p-3">
-                <h1 class="fonte-principal">Certificados</h1>
+
+        <section id="certificados" class="container mt-5">
+            <div class="col-4 ">
+                <h1 class="fonte-principal titulos pb-2">Certificados</h1>
             </div>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -160,9 +119,6 @@
                     </div>
                     <div class="carousel-item">
                         <img src="../../images/alfamidia.png" class="d-block w-80" alt="certificado JavaScript">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../../images/jenkins.png" class="d-block w-80" alt="certificado Jenkins">
                     </div>
                     <div class="carousel-item">
                         <img src="../../images/react.png" class="d-block w-80" alt="certificado React">
@@ -186,34 +142,19 @@
 
         <footer class="py-5">
             <div
-            class="container d-flex flex-column flex-sm-row justify-content-around align-items-center py-4 my-4 border-top">
-            <p class="m-0 text-secondary">&copy; 2023 by Daniela H. Leguari</p>
-            <div class="icones-footer">
-                <a href="https://www.linkedin.com/in/daniela-leguari/"><i
-                        class="fa-brands fa-linkedin icone-linkedin"></i></a>
-                <a href="https://github.com/DanielaLeguari"><i class="fa-brands fa-square-github icone-github"></i></a>
-            </div>
+                class="container d-flex flex-column flex-sm-row justify-content-around align-items-center py-4 my-4 border-top">
+                <p class="m-0 text-secondary">&copy; 2023 by Daniela H. Leguari</p>
+                <div class="icones-footer">
+                    <a href="https://www.linkedin.com/in/daniela-leguari/"><i
+                            class="fa-brands fa-linkedin icone-linkedin"></i></a>
+                    <a href="https://github.com/DanielaLeguari"><i
+                            class="fa-brands fa-square-github icone-github"></i></a>
+                </div>
         </footer>
     </main>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="../sobre/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>

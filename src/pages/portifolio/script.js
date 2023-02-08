@@ -1,4 +1,4 @@
-fetch('/src/projetos.json').then(response => {
+fetch('./projetos.json').then(response => {
     return response.json();
 }).then(data => {
     let html = '';
