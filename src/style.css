@@ -1,27 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.fonte-principal{
+/*Navbar*/
+
+.bg-navbar {
+    background-color: #17293a;
+}
+
+.cor-fonte {
+    color: #e4ebef !important;
+}
+
+.fonte-principal {
     font-family: 'Pacifico', cursive;
+}
+
+.cor-habilidades {
+    color: #850d29;
+
+}
+
+.cor-texto-paragrafo {
+    color: #17293a;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    text-indent: 2rem;
+}
+
+.box-perfil-index {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border: 0.01rem solid #850d29;
+    padding: 1rem;
+    margin-top: 3.3rem;
+}
+
+.icons-skills {
+    font-size: 4rem;
+    margin-right: 1rem;
+}
+
+.icone-html {
+    color: orangered;
+}
+
+.icone-css {
+    color: blue
+}
+
+.icone-oracle{
+    color:rgba(204, 30, 30, 0.889);
+}
+
+.icone-banco{
+    color:grey;
+}
+
+.icone-javascript {
+    color: rgb(255, 225, 0);
+}
+
+.icone-git {
+    color: rgb(255, 102, 0);
 }
 
 .box-perfil {
     border-radius: 10px;
-    background-color: #e4ebef;
+    background-color: #f6f6f6;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
     margin-top: 1rem;
 }
 
-.box-perfil-index{
-    border-radius: 10px;
-    background-color: #e4ebef;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-    margin-top: 3.3rem;
-}
+
 
 .img-perfil img {
     width: 200px;
@@ -45,7 +102,7 @@
     transition: transform .2s;
 }
 
-.card-largura{
+.card-largura {
     max-width: 18rem;
 }
 
@@ -53,7 +110,7 @@
     transform: translate(0, -2rem);
 }
 
-.card-posicao-imagem{
+.card-posicao-imagem {
     object-fit: cover;
     height: 200px;
 }
