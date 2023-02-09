@@ -4,7 +4,7 @@ fetch('./projetos.json').then(response => {
   let html = '';
   console.log(data);
   data.forEach(elemento => {
-    html += `  <article id="card" class="card card-estilo card-largura p-0 m-4 col-12 col-md-3">
+    html += `  <article id="card" class="card card-estilo card-largura p-0 m-4 col-12 col-md-4">
         <img  id="imagem" src="${elemento.imagem}"class="card-img-top card-posicao-imagem" alt="...">
         <div class="card-body">
           <h5 id="titulo" class="card-title">${elemento.titulo}</h5>

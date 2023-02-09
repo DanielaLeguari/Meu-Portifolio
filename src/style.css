@@ -209,8 +209,8 @@
 }
 
 .card-posicao-imagem {
-    object-fit: cover;
-    height: 200px;
+    /* object-fit: cover; */
+    height: 280px;
 }
 
 /*portifolio*/
