@@ -12,6 +12,12 @@
         "link":"https://github.com/DanielaLeguari/landing-page-receitas"
     },
     {
+        "imagem":"/src/images/bot.gif",
+        "titulo":"Bot Studify",
+        "legenda":"Projeto pessoal de criação de um bot para Discord, clique no botão para acessar o repositório do projeto",
+        "link":"https://github.com/DanielaLeguari/bot-discord"
+    },
+    {
         "imagem":"/src/images/alura-studies.png",
         "titulo":"Alura Studies",
         "legenda":"Projeto realizado no curso da Plataforma Alura, desenvolvido em React com TypeScript.",
