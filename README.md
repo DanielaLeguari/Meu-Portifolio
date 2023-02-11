@@ -15,6 +15,6 @@
 
 - O projeto é composto pela tela Início;
 - A página Sobre;
-- A página Portfólio;
+- A página Meus projetos;
 - Página de contatos;
 - Página Obrigado.
