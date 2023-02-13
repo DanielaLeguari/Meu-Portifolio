@@ -43,6 +43,11 @@
     ;
 
 }
+.apresentacao{
+    border-top:1rem solid #2e4459;
+    border-left:1rem solid #2e4459;
+    border-radius: 10px 20px 30px;
+}
 
 .cor-texto-paragrafo {
     color: #17293a;
@@ -66,7 +71,10 @@
 .box-perfil-index {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    border: 0.01rem solid #850d29;
+    /* border: 1rem solid ; */
+    border-right:1rem solid #850d29;
+    border-left:1rem solid #850d29;
+    border-radius: 10px 20px 30px;
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -75,6 +83,18 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+.hard-skills{
+    border-radius: 10px 20px 30px;
+    border-bottom:1rem solid #2e4459;
+    border-right:1rem solid #2e4459;
+}
+
+.soft-skills{
+    border-radius: 10px 20px 30px;
+    border-bottom:1rem solid #2e4459;
+    border-left:1rem solid #2e4459;
 }
 
 .icons-skills {
@@ -154,6 +174,19 @@
 .titulos {
     color: #850d29;
 }
+
+.experiencias{
+    border-right:1rem solid #2e4459 ;
+    border-bottom:1rem solid #2e4459  ;
+    border-radius: 10px 20px 30px;
+    
+}
+
+.cursos{
+    border-left:1rem solid #2e4459 ;
+    border-bottom:1rem solid #2e4459  ;
+    border-radius: 10px 20px 30px;
+}
 .fonte-cursos{
     font-family: 'Montserrat', sans-serif; 
     color: #17293a;
@@ -181,12 +214,6 @@
     color: #17293a;
 }
 
-.borda-card-cursos {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    border: 0.01rem solid #850d29;
-    border-radius: 5px;
-}
-
 .imagem-carrossel {
     height: 600px;
 }
@@ -194,9 +221,13 @@
 
 /*cards*/
 
-.card-estilo {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform .2s;
+.card{
+    border:none !important;
+    box-shadow: rgba(167, 164, 164, 0.35) 0px 5px 15px;
+}
+
+.card:hover{
+    box-shadow: rgba(106, 11, 11, 0.35) 0px 5px 15px;
 }
 
 .card-projetos{
@@ -212,10 +243,6 @@
     max-width: 18rem;
 }
 
-.card-estilo:hover {
-    transform: translate(0, -2rem);
-    transition: transform .2s;
-}
 
 .card-posicao-imagem {
     /* object-fit: cover; */
