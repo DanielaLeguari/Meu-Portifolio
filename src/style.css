@@ -250,6 +250,12 @@
 }
 
 /*portifolio*/
+.meus-projetos{
+    border-left:1rem solid #2e4459 ;
+    border-right:1rem solid #2e4459  ;
+    border-radius: 10px 20px 30px;
+}
+
 .box-projetos {
     margin-top: 1rem;
 }
