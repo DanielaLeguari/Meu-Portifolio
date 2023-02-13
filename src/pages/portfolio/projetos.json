@@ -1,14 +1,14 @@
 [
     {
-        "imagem":"/src/images/blog.gif",
+        "imagem":"/src/images/blog.png",
         "titulo":"Blog 'Os Winchesters'",
         "legenda":"Projeto Pessoal sobre a série 'Os Winchesters' desenvolvido em React com Typescript.",
         "link":"https://homework-2-typescript-react.vercel.app/"
     },
     {
         "imagem":"/src/images/receitas.png",
-        "titulo":"Projetos Receitas Sem glúten e sem Lactose",
-        "legenda":"Projeto pessoal de uma Landing page de receitas com Bootstrap.",
+        "titulo":"Receitas Sem glúten e sem Lactose",
+        "legenda":"Projeto pessoal de uma Landing page de receitas em Bootstrap, JS.",
         "link":"https://github.com/DanielaLeguari/landing-page-receitas"
     },
     {
@@ -20,7 +20,7 @@
     {
         "imagem":"/src/images/alura-studies.png",
         "titulo":"Alura Studies",
-        "legenda":"Projeto realizado no curso da Plataforma Alura, desenvolvido em React com TypeScript.",
+        "legenda":"Projeto realizado no curso React: escrevendo com TypeScript da Plataforma Alura, desenvolvido em React com TypeScript.",
         "link":"https://projeto-alura-studies.vercel.app/"
     },
     {

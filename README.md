@@ -1,6 +1,6 @@
-# Projeto Meu-Portifolio
+# Projeto Meu-Portfolio
 
-- Trabalho final do curso Desenvolvedor Front-End  do +PraTi
+- Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi
 
 ## Tecnologias utilizadas
 
@@ -13,7 +13,9 @@
 
 ## Páginas do Projeto
 
-- O projeto é composto pela tela Início;
+- O projeto é composto pelas páginas:
+
+- Início;
 - A página Sobre;
 - A página Meus projetos;
 - Página de contatos;
