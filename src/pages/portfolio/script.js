@@ -9,7 +9,7 @@ fetch('./projetos.json').then(response => {
         <div class="card-body">
           <h5 id="titulo" class="card-title">${elemento.titulo}</h5>
           <p id="subtitulo" class="card-text">${elemento.legenda}</p>
-          <a href="${elemento.link}"class="botao-cor-projetos">Acessar projeto</a>
+          <a href="${elemento.link}" target="_blank" class="botao-cor-projetos">Acessar projeto</a>
         </div>
       </article>`
   });

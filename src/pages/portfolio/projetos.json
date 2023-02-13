@@ -9,7 +9,7 @@
         "imagem":"/src/images/receitas.png",
         "titulo":"Receitas Sem glúten e sem Lactose",
         "legenda":"Projeto pessoal de uma Landing page de receitas em Bootstrap, JS.",
-        "link":"https://github.com/DanielaLeguari/landing-page-receitas"
+        "link":"https://landing-page-receitas.vercel.app/"
     },
     {
         "imagem":"/src/images/bot.gif",
