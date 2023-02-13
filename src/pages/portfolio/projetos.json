@@ -1,6 +1,6 @@
 [
     {
-        "imagem":"/src/images/blog.png",
+        "imagem":"/src/images/blog.gif",
         "titulo":"Blog 'Os Winchesters'",
         "legenda":"Projeto Pessoal sobre a série 'Os Winchesters' desenvolvido em React com Typescript.",
         "link":"https://homework-2-typescript-react.vercel.app/"
