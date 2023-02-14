@@ -7,7 +7,7 @@
     },
     {
         "imagem":"/src/images/receitas.png",
-        "titulo":"Receitas Sem glúten e sem Lactose",
+        "titulo":"Landing page de Receitas",
         "legenda":"Projeto pessoal de uma Landing page de receitas em Bootstrap, JS.",
         "link":"https://landing-page-receitas.vercel.app/"
     },
@@ -22,17 +22,5 @@
         "titulo":"Alura Studies",
         "legenda":"Projeto realizado no curso React: escrevendo com TypeScript da Plataforma Alura, desenvolvido em React com TypeScript.",
         "link":"https://projeto-alura-studies.vercel.app/"
-    },
-    {
-        "imagem":"/src/images/context-api.png",
-        "titulo":"Projeto React e Context/API",
-        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd. Clique no botão abaixo para visualizar o repositório do projeto.",
-        "link":"https://github.com/DanielaLeguari/projeto-react-context/"
-    },
-    {
-        "imagem":"/src/images/context-api2.png",
-        "titulo":"Projeto React e Context/API",
-        "legenda":"Projeto realizado na capacitação do Vem ser DBC 10ªEd. Clique no botão abaixo para visualizar o repositório do projeto.",
-        "link":"https://github.com/DanielaLeguari/projeto2-react-context"
     }
 ]

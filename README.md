@@ -1,6 +1,6 @@
-# Projeto Meu-Portfolio
+# Projeto Portfolio
 
-- Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi
+- Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi by Happy Code
 
 ## Tecnologias utilizadas
 
@@ -11,12 +11,21 @@
 </div>
 
 
-## Páginas do Projeto
+# Estrutura básica
 
-- O projeto é composto pelas páginas:
+## O projeto é composto pelas páginas:
 
-- Início;
-- A página Sobre;
-- A página Meus projetos;
-- Página de contatos;
-- Página Obrigado.
+### Início
+-  Composta por uma apresentação, formação, hard skills e soft skills.
+
+### Sobre 
+- 
+
+
+### Meus projetos
+
+
+### Página de contatos
+
+
+### Página Obrigado

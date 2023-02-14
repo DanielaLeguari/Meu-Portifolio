@@ -19,7 +19,6 @@
     color: #e4ebef !important;
 }
 
-
 /*breadcrumb*/
 .breadcrumb-index {
     margin-top: 4rem;
@@ -43,11 +42,6 @@
     ;
 
 }
-.apresentacao{
-    border-top:1rem solid #2e4459;
-    border-left:1rem solid #2e4459;
-    border-radius: 10px 20px 30px;
-}
 
 .cor-texto-paragrafo {
     color: #17293a;
@@ -58,10 +52,11 @@
     text-indent: 2rem;
 }
 
-.texto-apresentacao{
+.texto-apresentacao {
     text-align: justify;
 }
-.perfil-index{
+
+.perfil-index {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -71,10 +66,9 @@
 .box-perfil-index {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    /* border: 1rem solid ; */
-    border-right:1rem solid #850d29;
-    border-left:1rem solid #850d29;
-    border-radius: 10px 20px 30px;
+    border-right: 1rem solid #850d29;
+    border-left: 1rem solid #850d29;
+    border-radius: 20px 20px 20px;
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -85,16 +79,16 @@
     border-radius: 50%;
 }
 
-.hard-skills{
+.hard-skills {
     border-radius: 10px 20px 30px;
-    border-bottom:1rem solid #2e4459;
-    border-right:1rem solid #2e4459;
+    border-bottom: 0.5rem solid #2e4459;
+    border-right: 0.5rem solid #2e4459;
 }
 
-.soft-skills{
+.soft-skills {
     border-radius: 10px 20px 30px;
-    border-bottom:1rem solid #2e4459;
-    border-left:1rem solid #2e4459;
+    border-bottom: 0.5rem solid #2e4459;
+    border-left: 0.5rem solid #2e4459;
 }
 
 .icons-skills {
@@ -175,24 +169,42 @@
     color: #850d29;
 }
 
-.experiencias{
-    border-right:1rem solid #2e4459 ;
-    border-bottom:1rem solid #2e4459  ;
+.experiencias {
+    border-left: 0.5rem solid #2e4459;
+    border-top: 0.5rem solid #2e4459;
     border-radius: 10px 20px 30px;
-    
 }
 
-.cursos{
-    border-left:1rem solid #2e4459 ;
-    border-bottom:1rem solid #2e4459  ;
+.sessao-sobre {
+    background-image: url('../src/images/background.png');
+    border-radius: 10px;
+}
+
+.glassmofismo {
+    background: rgba(239, 233, 233, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 40%;
+}
+
+.paragrafo-sobre-mim {
+    color: #f6f6f6;
+}
+
+.cursos {
+    border-right: 0.5rem solid #2e4459;
+    border-bottom: 0.5rem solid #2e4459;
     border-radius: 10px 20px 30px;
 }
-.fonte-cursos{
-    font-family: 'Montserrat', sans-serif; 
+
+.fonte-cursos {
+    font-family: 'Montserrat', sans-serif;
     color: #17293a;
 }
 
-.titulo-card-cursos{
+.titulo-card-cursos {
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -218,42 +230,37 @@
     height: 600px;
 }
 
-
 /*cards*/
-
-.card{
-    border:none !important;
+.card {
+    border: none !important;
     box-shadow: rgba(167, 164, 164, 0.35) 0px 5px 15px;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: rgba(106, 11, 11, 0.35) 0px 5px 15px;
 }
 
-.card-projetos{
+.card-projetos {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card-projetos:hover{
+.card-projetos:hover {
     box-shadow: rgba(106, 11, 11, 0.35) 0px 5px 15px;
 }
-
 
 .card-largura {
     max-width: 18rem;
 }
 
-
 .card-posicao-imagem {
-    /* object-fit: cover; */
     height: 300px;
 }
 
 /*portifolio*/
-.meus-projetos{
-    border-left:1rem solid #2e4459 ;
-    border-right:1rem solid #2e4459  ;
-    border-radius: 10px 20px 30px;
+.meus-projetos {
+    border-left: 1rem solid #2e4459;
+    border-right: 1rem solid #2e4459;
+    border-radius: 20px 20px 20px;
 }
 
 .box-projetos {
@@ -266,6 +273,7 @@
     color: white;
     border: none;
     text-decoration: none;
+    text-align: center;
     border-radius: 5px;
     padding: 0.5rem;
 }
