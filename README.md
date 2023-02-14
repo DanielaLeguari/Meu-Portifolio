@@ -2,6 +2,8 @@
 
 - Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi by Happy Code
 
+<hr>
+
 ## Tecnologias utilizadas
 
  <div align="center" style="display: inline_block"><br>
@@ -10,6 +12,7 @@
   <img  align="center" alt="Dani-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />                
 </div>
 
+<hr>
 
 # Estrutura básica
 
