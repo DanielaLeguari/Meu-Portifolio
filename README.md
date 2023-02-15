@@ -1,6 +1,6 @@
 # Projeto Portfolio
 
-- Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi by Happy Code
+- Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi by Happy Code.
 
 <hr>
 
@@ -18,17 +18,23 @@
 
 ## O projeto é composto pelas páginas:
 
-### Início
+### Página Início
+
 -  Composta por uma apresentação, formação, hard skills e soft skills.
 
-### Sobre 
-- 
+### Página Sobre 
 
+- Composta por um breve comentário sobre as oportunidades de meu interesse, e em seguida a sessão com as experiências, cursos e um carrossel com certificados 
 
-### Meus projetos
+### Página Meus projetos
 
+- Composta por uma breve apresentação e em seguida os cards com os projetos, os quais possuem um botão que ao clicá-lo abrirá uma nova página com o projeto.
 
 ### Página de contatos
 
+- A página de contatos possui uma sessão com as redes sociais que ao clicar vão direto para a página da rede social (nova guia).
+- A segunda seção é a de contato que ao preencher os dados e clicar em enviar os mesmos são enviados para o meu e-mail.
 
 ### Página Obrigado
+
+- Ao preencher o formulário e clicar em enviar o site irá redirecionar para a página de obrigado na qual o usuário poderá voltar(botão) para a página home.
