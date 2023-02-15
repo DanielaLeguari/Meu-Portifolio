@@ -19,7 +19,7 @@
 </div>
 
 *******
-# Estrutura básica
+# Estrutura do projeto
 
  1. [Página Início](#inicio)
  2. [Página Sobre](#sobre)
@@ -29,6 +29,7 @@
  6. [Bootstrap](#bootstrap)
  7. [Layout do projeto](#layout)
  8. [Responsividade](#responsividade)
+ 9. [Vercel](#vercel)
 
 *******
 
@@ -110,3 +111,11 @@
 <p align="center">
 <img width="450" src="./src/images/mobile.gif">
 <p>
+
+
+*******
+<div id='vercel'/> 
+
+# 9. Vercel
+
+- A plataforma Vercel é para desenvolvedores front-end que permite facilidade e rapidez na visualização e iteração  com os sites produzidos e publicados na plataforma.
