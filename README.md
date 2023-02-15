@@ -38,7 +38,7 @@
 
 ![](./src/images/inicio.png)
 
-
+*******
 <div id='sobre'/> 
 
 ### 2. Página Sobre 
@@ -48,7 +48,7 @@
 
 ![](./src/images/sobre.png)
 
-
+*******
 <div id='projetos'/> 
 
 ### 3. Página Meus Projetos
@@ -56,9 +56,9 @@
 -  Composta por um header fixado, uma seção com breadcrumb, por uma breve apresentação dos projetos, na sequência são apresentados uma sessão com os cards com os projetos que são carregados dinamicamente com JavaScript. Cada card possui um botão que ao clicá-lo abrirá uma nova página com o projeto exeto o card com o chatbot do whatsApp, pois a aplicação foi feita na plataforma Low Code Twilio. Para finalizar o footer com ícones que dão acesso as redes sociais.
 
 
-![](./src/images/obrigado.png)
+![](./src/images/projetos.png)
 
-
+*******
 <div id='contatos'/> 
 
 ### 4. Página de Contatos
@@ -68,7 +68,7 @@
 
 ![](./src/images/contato.png)
 
-
+*******
 <div id='obrigado'/>
 
 ### 5. Página Obrigado
@@ -76,28 +76,31 @@
 - Ao preencher o formulário e clicar em enviar o site irá redirecionar para a página de obrigado na qual o usuário poderá voltar(botão) para a página home.
 
 
+![](./src/images/obrigado.png)
 
 
 
-<hr>
+*******
 
 <div id='bootstrap'/> 
 
 # 6. Bootstrap
 - A escolha dessa ferramenta se deu pela rapidez na criação de uma aplicação. Seus componentes melhoram a experiência do usuário tornando o site amigável e principalmente RESPONSIVO!
 
-<hr>
 
+*******
 <div id='layout'/> 
 
 # 7. Layout do site
 
 - A escolha do estilo busquei misturar as cores fortes com tons mais claros e ao mesmo tempo apresentar um site simples, objetivo, funcional e responsivo.
 
+
+*******
 <div id='responsividade'/> 
 
 # 8. Resposividade
 
 <p align="center">
-<img width="600" src="./src/imagens/mobile.gif">
+<img width="450" src="./src/images/mobile.gif">
 <p>
