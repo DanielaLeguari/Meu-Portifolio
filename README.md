@@ -1,4 +1,4 @@
-# Projeto Portfolio
+# Projeto Portfólio
 
 - Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi by Happy Code.
 
@@ -14,27 +14,62 @@
 
 <hr>
 
+*******
 # Estrutura básica
+
+ 1. [Página Início](#inicio)
+ 2. [Página Sobre](#sobre)
+ 3. [Página Projetos](#projetos)
+ 4. [Página Contato](#contato)
+ 5. [Bootstrap](#bootstrap)
+ 6. [Layout do projeto](#layout)
+
+*******
 
 ## O projeto é composto pelas páginas:
 
+
+<div id='inicio'/> 
+
 ### Página Início
 
--  Composta por uma apresentação, formação, hard skills e soft skills.
+-  Composta por um header fixado, uma seção com breadcrumb, um article de apresentação, seção formação utilizando glassmorphism, seção de hard skills, seção de soft skills e um footer com ícones que dão acesso as redes sociais.
+
+<div id='sobre'/> 
 
 ### Página Sobre 
 
-- Composta por um breve comentário sobre as oportunidades de meu interesse, e em seguida a sessão com as experiências, cursos e um carrossel com certificados 
+- Composta por um header fixado, uma seção com breadcrumb, uma seção de apresentação com um breve comentário sobre as oportunidades de meu interesse. Em seguida, a sessão com as minhas experiências, seção de cursos, um carrossel com certificados e um footer com ícones que dão acesso as redes sociais.
 
-### Página Meus projetos
+<div id='projetos'/> 
 
-- Composta por uma breve apresentação e em seguida os cards com os projetos, os quais possuem um botão que ao clicá-lo abrirá uma nova página com o projeto.
+### Página Meus Projetos
 
-### Página de contatos
+-  Composta por um header fixado, uma seção com breadcrumb, por uma breve apresentação dos projetos, na sequência são apresentados uma sessão com os cards com os projetos que são carregados dinamicamente com JavaScript. Cada card possui um botão que ao clicá-lo abrirá uma nova página com o projeto exeto o card com o chatbot do whatsApp, pois a aplicação foi feita na plataforma Low Code Twilio. Para finalizar o footer com ícones que dão acesso as redes sociais.
 
-- A página de contatos possui uma sessão com as redes sociais que ao clicar vão direto para a página da rede social (nova guia).
-- A segunda seção é a de contato que ao preencher os dados e clicar em enviar os mesmos são enviados para o meu e-mail.
+<div id='contatos'/> 
+
+### Página de Contatos
+
+- A página de contatos é composta por um header fixado, uma seção com breadcrumb. No corpo na página temos uma sessão com as redes sociais que ao clicar vão direto para a página da rede social(em nova guia). A segunda seção é a de contato que ao preencher os dados e clicar em enviar os mesmos são enviados para o meu e-mail. No formulário foi utilizada a Plataforma de back-end de formulários para designers e desenvolvedores, nesse terminal não é necessário nenhum código de back-end. Para finalizar o footer com ícones que dão acesso as redes sociais.
+
+<div id='obrigado'/>
 
 ### Página Obrigado
 
 - Ao preencher o formulário e clicar em enviar o site irá redirecionar para a página de obrigado na qual o usuário poderá voltar(botão) para a página home.
+
+<hr>
+
+<div id='bootstrap'/> 
+
+# Bootstrap
+- A escolha dessa ferramenta se deu pela rapidez na criação de uma aplicação. Seus componentes melhoram a experiência do usuário tornando o site amigável e principalmente RESPONSIVO!
+
+<hr>
+
+<div id='layout'/> 
+
+# Layout do site
+
+- A escolha do estilo busquei misturar as cores fortes com tons mais claros e ao mesmo tempo apresentar um site simples, objetivo, funcional e responsivo.
