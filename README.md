@@ -60,7 +60,7 @@
 
 ### 3. Página Meus Projetos
 
--  Composta por um header fixado, uma seção com breadcrumb, por uma breve apresentação dos projetos, na sequência são apresentados uma sessão com os cards com os projetos que são carregados dinamicamente com JavaScript. Cada card possui um botão que ao clicá-lo abrirá uma nova página com o projeto exeto o card com o chatbot do whatsApp, pois a aplicação foi feita na plataforma Low Code Twilio. Para finalizar o footer com ícones que dão acesso as redes sociais.
+-  Composta por um header fixado, uma seção com breadcrumb, por uma breve apresentação dos projetos, na sequência são apresentados uma sessão com os cards com os projetos que são carregados dinamicamente com JavaScript. Cada card possui um botão que ao clicá-lo abrirá uma nova página com o projeto exceto o card com o chatbot do whatsApp, pois a aplicação foi feita na plataforma Low Code Twilio. Para finalizar o footer com ícones que dão acesso as redes sociais.
 
 
 ![](./src/images/projetos.png)
