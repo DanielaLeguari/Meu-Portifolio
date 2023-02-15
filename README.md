@@ -1,9 +1,14 @@
+<div align="center" style="display: inline_block"><br>
+
 # Projeto Portfólio
+
+
+</div>
 
 - Trabalho final do curso Desenvolvedor Front-End: do zero ao primeiro site do +PraTi by Happy Code.
 
-<hr>
 
+*******
 ## Tecnologias utilizadas
 
  <div align="center" style="display: inline_block"><br>
@@ -23,6 +28,7 @@
  5. [Página Obrigado](#obrigado)
  6. [Bootstrap](#bootstrap)
  7. [Layout do projeto](#layout)
+ 8. [Responsividade](#responsividade)
 
 *******
 
