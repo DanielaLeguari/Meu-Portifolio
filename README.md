@@ -1,6 +1,6 @@
 <div align="center" style="display: inline_block"><br>
 
-# Projeto Portfólio
+# Projeto Final Portifólio
 
 
 </div>
@@ -106,7 +106,7 @@
 *******
 <div id='responsividade'/> 
 
-# 8. Resposividade
+# 8. Responsividade
 
 <p align="center">
 <img width="450" src="./src/images/mobile.gif">
