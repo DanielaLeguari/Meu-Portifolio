@@ -50,7 +50,7 @@
 
 ### 2. Página Sobre 
 
-- Composta por um header fixado, uma seção com breadcrumb, uma seção de apresentação com um breve comentário sobre as oportunidades de meu interesse. Em seguida, a sessão com as minhas experiências, seção de cursos, um carrossel com certificados e um footer com ícones que dão acesso as redes sociais.
+- Composta por um header fixado, uma seção com breadcrumb, uma seção de apresentação com um breve comentário sobre as oportunidades de meu interesse. Em seguida, a sessão com as minhas experiências, seção de cursos, um carrossel com certificados e um footer com ícones que dão acesso às redes sociais.
 
 
 ![](./src/images/sobre.png)
@@ -60,7 +60,7 @@
 
 ### 3. Página Meus Projetos
 
--  Composta por um header fixado, uma seção com breadcrumb, por uma breve apresentação dos projetos, na sequência são apresentados uma sessão com os cards com os projetos que são carregados dinamicamente com JavaScript. Cada card possui um botão que ao clicá-lo abrirá uma nova página com o projeto exceto o card com o chatbot do whatsApp, pois a aplicação foi feita na plataforma Low Code Twilio. Para finalizar o footer com ícones que dão acesso as redes sociais.
+-  Composta por um header fixado, uma seção com breadcrumb, por uma breve apresentação dos projetos, na sequência são apresentados uma sessão com os cards com os projetos que são carregados dinamicamente com JavaScript. Cada card possui um botão que ao clicá-lo abrirá uma nova página com o projeto exceto o card com o chatbot do whatsApp, pois a aplicação foi feita na plataforma Low Code Twilio. Para finalizar o footer com ícones que dão acesso às redes sociais.
 
 
 ![](./src/images/projetos.png)
@@ -70,7 +70,7 @@
 
 ### 4. Página de Contatos
 
-- A página de contatos é composta por um header fixado, uma seção com breadcrumb. No corpo na página temos uma sessão com as redes sociais que ao clicar vão direto para a página da rede social(em nova guia). A segunda seção é a de contato que ao preencher os dados e clicar em enviar os mesmos são enviados para o meu e-mail. No formulário foi utilizada a Plataforma de back-end de formulários para designers e desenvolvedores, nesse terminal não é necessário nenhum código de back-end. Para finalizar o footer com ícones que dão acesso as redes sociais.
+- A página de contatos é composta por um header fixado, uma seção com breadcrumb. No corpo na página temos uma sessão com as redes sociais que ao clicar vão direto para a página da rede social(em nova guia). A segunda seção é a de contato que ao preencher os dados e clicar em enviar os mesmos são enviados para o meu e-mail. No formulário foi utilizada a Plataforma de back-end de formulários para designers e desenvolvedores, nesse terminal não é necessário nenhum código de back-end. Para finalizar o footer com ícones que dão acesso às redes sociais.
 
 
 ![](./src/images/contato.png)
@@ -116,6 +116,6 @@
 *******
 <div id='vercel'/> 
 
-# 9. Vercel
+# 9. Deploy na Vercel
 
 - A plataforma Vercel é para desenvolvedores front-end que permite facilidade e rapidez na visualização e iteração  com os sites produzidos e publicados na plataforma.
