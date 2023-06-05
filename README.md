@@ -1,6 +1,6 @@
 <div align="center" style="display: inline_block"><br>
 
-# Projeto Final Portifólio
+# Projeto Final Portfólio
 
 
 </div>
